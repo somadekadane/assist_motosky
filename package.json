@@ -1,7 +1,7 @@
 {
   "name": "assisti",
   "version": "1.0.0",
-  "description": "Desenvolvimento de um sistema desktop para gestão de ordem de serviços de uma assistência técnica de computadores e notebooks.",
+  "description": "Serviços de reparos e manutenção de motos elétricas.",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/professorjosedeassis/assisti.git"
+    "url": "git+https://github.com/somadekadane/assist_motosky.git"
   },
-  "author": "Professor José de Assis",
+  "author": "Eder Silva",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/professorjosedeassis/assisti/issues"
+    "url": "https://github.com/somadekadane/assist_motosky/issues"
   },
-  "homepage": "https://github.com/professorjosedeassis/assisti#readme",
+  "homepage": "https://github.com/somadekadane/assist_motosky#readme",
   "devDependencies": {
     "electron": "^34.2.0"
   }
