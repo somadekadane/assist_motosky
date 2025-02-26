@@ -22,11 +22,11 @@ const createWindow = () => {
 }
 // FIM da Janela Principal
 
-// Inicio JAnela Sobre
+// Inicio Janela Sobre
 function aboutWindow(){
     nativeTheme.themeSource = 'light'
     const main = BrowserWindow.getFocusedWindow()
-    let aboutWindow
+    let about
     // Estabelecer uma relação hierárquica entre janelas
     if (main){
         //criar a janela sobre
@@ -40,10 +40,12 @@ function aboutWindow(){
             modal: true
         })
     }
+    //carregar o documento html na janela
     about.loadFile('./src/views/Sobre.html')
 }
 
 // Iniciar a aplicação
+let client
 app.whenReady().then(() => {
     createWindow()
 
